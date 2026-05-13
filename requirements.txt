@@ -1,0 +1,4 @@
+Pillow==11.0.0
+opencv-python==4.10.0.84
+numpy==1.24.3
+svgpathtools==1.4.4
