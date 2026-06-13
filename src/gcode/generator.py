@@ -64,8 +64,8 @@ class GCodeGenerator:
         return "M5"
     
     def pen_down_command(self) -> str:
-        """Generate pen down command (always M3 S255)."""
-        return "M3 S255"
+        """Generate pen down command (always M3 S60)."""
+        return "M3 S60"
     
     def move_command(self, x: float, y: float, feed: Optional[float] = None, is_cut: bool = False) -> str:
         """
